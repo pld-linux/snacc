@@ -1,12 +1,10 @@
-#
 Summary:	SNACC - ASN.1 to C or C++ compiler
 Summary(pl):	SNACC - Kompilator ASN.1 do C lub C++
 Name:		snacc
 Version:	1.3
 Release:	0.1
 License:	GPL v2
-Group:		Applications
-#Icon:		-
+Group:		Development/Tools
 Source0:	http://ftp.debian.org/debian/pool/main/s/snacc/%{name}_%{version}bbn.orig.tar.gz
 #http://ftp.debian.org/debian/pool/main/s/snacc/snacc_1.3bbn-9.diff.gz
 Patch0:		%{name}_1.3bbn-9.diff
@@ -26,15 +24,19 @@ Given an ASN.1 source file(s) snacc can produce:
 routines for BER encoding, decoding, and printing. 3. A type table
 that can be used with C driver routines for BER encoding, decoding, 
 printing and freeing.
-If you want to build snacc based applications, you want to install the
-libsnacc-dev package, too. Your application will then depend on the
-snacc libraries, you find in the libsnacc0c2 package.
 
 %description -l pl
 Snacc jest skrótem od "Sample Neufeld ASN.1 to C Compiler", a ASN.1 to
-"Abstract Syntax Notation One (ITU-T X.208/ISO 8824)". Snacc wspiera 
-podzbiór ASN.1 1988. Je¶li potrzebujesz w³a¶ciwo¶ci ASN.1 1992 lub 
+"Abstract Syntax Notation One" (ITU-T X.208/ISO 8824). Snacc wspiera 
+podzbiór ASN.1 1988. Je¶li potrzebujesz w³a¶ciwo¶ci ASN.1 1992 lub
 pó¼niejszych to snacc nie jest dla Ciebie.
+
+Na podstawie pliku(ów) ¼ród³owego ASN.1 snacc mo¿e stworzyæ:
+1. funkcje C do kodowania, deokodowania, wypisywania i zwalniania BER
+2. funkcje C++ do kodowania, deokodowania, wypisywania i zwalniania
+BER
+3. tabelê typów, której mo¿na u¿ywaæ z funkcjami C do kodowania,
+dekodowania, wypisywania i zwalniania
 
 %if %{with devel-static}
 %package devel
@@ -110,8 +112,3 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 #%{_examplesdir}/%{name}-%{version}
-
-%files subpackage
-%defattr(644,root,root,755)
-#%doc extras/*.gz
-#%{_datadir}/%{name}-ext
