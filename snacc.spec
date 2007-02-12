@@ -1,5 +1,5 @@
 Summary:	SNACC - ASN.1 to C or C++ compiler
-Summary(pl.UTF-8):   SNACC - Kompilator ASN.1 do C lub C++
+Summary(pl.UTF-8):	SNACC - Kompilator ASN.1 do C lub C++
 Name:		snacc
 Version:	1.3
 Release:	0.1
