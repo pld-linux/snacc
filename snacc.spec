@@ -1,5 +1,5 @@
 Summary:	SNACC - ASN.1 to C or C++ compiler
-Summary(pl):	SNACC - Kompilator ASN.1 do C lub C++
+Summary(pl.UTF-8):   SNACC - Kompilator ASN.1 do C lub C++
 Name:		snacc
 Version:	1.3
 Release:	0.1
@@ -25,17 +25,17 @@ routines for BER encoding, decoding, and printing. 3. A type table
 that can be used with C driver routines for BER encoding, decoding, 
 printing and freeing.
 
-%description -l pl
-Snacc jest skrÛtem od "Sample Neufeld ASN.1 to C Compiler", a ASN.1 to
+%description -l pl.UTF-8
+Snacc jest skr√≥tem od "Sample Neufeld ASN.1 to C Compiler", a ASN.1 to
 "Abstract Syntax Notation One" (ITU-T X.208/ISO 8824). Snacc wspiera 
-podzbiÛr ASN.1 1988. Je∂li potrzebujesz w≥a∂ciwo∂ci ASN.1 1992 lub
-pÛºniejszych to snacc nie jest dla Ciebie.
+podzbi√≥r ASN.1 1988. Je≈õli potrzebujesz w≈Ça≈õciwo≈õci ASN.1 1992 lub
+p√≥≈∫niejszych to snacc nie jest dla Ciebie.
 
-Na podstawie pliku(Ûw) ºrÛd≥owego ASN.1 snacc moøe stworzyÊ:
+Na podstawie pliku(√≥w) ≈∫r√≥d≈Çowego ASN.1 snacc mo≈ºe stworzyƒá:
 1. funkcje C do kodowania, deokodowania, wypisywania i zwalniania BER
 2. funkcje C++ do kodowania, deokodowania, wypisywania i zwalniania
 BER
-3. tabelÍ typÛw, ktÛrej moøna uøywaÊ z funkcjami C do kodowania,
+3. tabelƒô typ√≥w, kt√≥rej mo≈ºna u≈ºywaƒá z funkcjami C do kodowania,
 dekodowania, wypisywania i zwalniania
 
 %if %{with devel-static}
