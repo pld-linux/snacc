@@ -19,22 +19,21 @@ stands for Abstract Syntax Notation One (ITU-T X.208/ISO 8824). Snacc
 supports a subset of ASN.1 1988. If you need features of ASN.1 1992 or
 later, snacc is not for you.
 
-Given an ASN.1 source file(s) snacc can produce:
-1. C routines for BER encoding, decoding, printing and freeing. 2. C++
-routines for BER encoding, decoding, and printing. 3. A type table
-that can be used with C driver routines for BER encoding, decoding, 
-printing and freeing.
+Given an ASN.1 source file(s) snacc can produce: 1. C routines for BER
+encoding, decoding, printing and freeing. 2. C++ routines for BER
+encoding, decoding, and printing. 3. A type table that can be used
+with C driver routines for BER encoding, decoding, printing and
+freeing.
 
 %description -l pl.UTF-8
 Snacc jest skrótem od "Sample Neufeld ASN.1 to C Compiler", a ASN.1 to
-"Abstract Syntax Notation One" (ITU-T X.208/ISO 8824). Snacc wspiera 
+"Abstract Syntax Notation One" (ITU-T X.208/ISO 8824). Snacc wspiera
 podzbiór ASN.1 1988. Jeśli potrzebujesz właściwości ASN.1 1992 lub
 późniejszych to snacc nie jest dla Ciebie.
 
-Na podstawie pliku(ów) źródłowego ASN.1 snacc może stworzyć:
-1. funkcje C do kodowania, deokodowania, wypisywania i zwalniania BER
-2. funkcje C++ do kodowania, deokodowania, wypisywania i zwalniania
-BER
+Na podstawie pliku(ów) źródłowego ASN.1 snacc może stworzyć: 1.
+funkcje C do kodowania, deokodowania, wypisywania i zwalniania BER 2.
+funkcje C++ do kodowania, deokodowania, wypisywania i zwalniania BER
 3. tabelę typów, której można używać z funkcjami C do kodowania,
 dekodowania, wypisywania i zwalniania
 
