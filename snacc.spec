@@ -58,7 +58,7 @@ Static SNACC library.
 
 %prep
 %setup -q -n %{name}-%{version}bbn.orig
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 # if ac/am/* rebuilding is necessary, do it in this order and add
